@@ -22,9 +22,9 @@ function Contact() {
           <a className="button button--gold" href={business.phoneHref}>
             Call for Roofing Service
           </a>
-          <a className="contact__email" href={`mailto:${business.email}`}>
+          {/* <a className="contact__email" href={`mailto:${business.email}`}>
             Email placeholder: {business.email}
-          </a>
+          </a> */}
         </div>
       </div>
     </section>
