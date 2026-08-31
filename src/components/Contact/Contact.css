@@ -1,0 +1,93 @@
+.contact {
+  padding: 100px 0;
+  background:
+    linear-gradient(90deg, rgba(16, 16, 16, 0.96), rgba(16, 16, 16, 0.84)),
+    url("../../assets/images/roofing-cta.webp") center / cover;
+  color: #ffffff;
+}
+
+.contact__inner {
+  width: min(calc(100% - 48px), var(--content-width));
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.contact__copy,
+.contact__actions {
+  min-width: 0;
+}
+
+.contact__copy h2 {
+  max-width: 760px;
+  margin: 0;
+  font-size: clamp(3rem, 7vw, 6.6rem);
+  line-height: 0.92;
+  letter-spacing: -0.06em;
+  text-transform: uppercase;
+}
+
+.contact__copy > p:last-child {
+  max-width: 650px;
+  margin: 28px 0 0;
+  color: #c8c8c8;
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.contact__actions {
+  display: grid;
+  gap: 16px;
+  justify-items: stretch;
+}
+
+.contact__phone {
+  display: grid;
+  padding: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  text-decoration: none;
+}
+
+.contact__phone span {
+  color: #aaaaaa;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.contact__phone strong {
+  margin-top: 6px;
+  color: #ffffff;
+  font-size: clamp(1.6rem, 3.5vw, 2.7rem);
+}
+
+.contact__email {
+  color: #b9b9b9;
+  font-size: 0.74rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 850px) {
+  .contact__inner {
+    grid-template-columns: 1fr;
+    gap: 42px;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact {
+    padding: 75px 0;
+  }
+
+  .contact__inner {
+    width: min(calc(100% - 32px), var(--content-width));
+  }
+
+  .contact__copy h2 {
+    font-size: clamp(2.1rem, 11vw, 3rem);
+    overflow-wrap: anywhere;
+  }
+}
