@@ -12,7 +12,7 @@ function TrustBar() {
       <div className="trust-bar__inner">
         {items.map(([number, text]) => (
           <div className="trust-bar__item" key={number}>
-            <span>{number}</span>
+            {/* <span>{number}</span> */}
             <strong>{text}</strong>
           </div>
         ))}

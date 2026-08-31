@@ -2,11 +2,6 @@
 
 A production-ready single-page React/Vite website for Herrera's Construction, a roofing and construction business serving the El Paso and Las Cruces region.
 
-## Design inspiration
-
-Visual inspiration: https://www.tigerairtx.com/
-
-The reference was used only for high-level design direction such as a bold service-business hero, CTA-forward navigation, image-led service presentation, strong uppercase typography, project gallery treatment, social proof, service-area emphasis, and practical contact/footer structure. No source code, branding, copy, or protected assets from Tiger Air are included.
 
 ## Technologies
 

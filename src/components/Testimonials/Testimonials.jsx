@@ -16,7 +16,7 @@ function Testimonials() {
           {testimonials.map((testimonial, index) => (
             <article className="testimonials__card" key={testimonial.name}>
               <div className="testimonials__meta">
-                <span>0{index + 1}</span>
+                {/* <span>0{index + 1}</span> */}
                 <div className="testimonials__stars" aria-label="5 star review">
                   ★★★★★
                 </div>

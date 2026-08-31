@@ -20,7 +20,7 @@ function Services() {
       <div className="services__featured">
         {featuredServices.map((service) => (
           <article className="services__feature" key={service.number}>
-            <span className="services__number">{service.number}</span>
+            {/* <span className="services__number">{service.number}</span> */}
             <h3>{service.title}</h3>
             <p>{service.copy}</p>
             <ul>

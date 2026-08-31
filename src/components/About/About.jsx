@@ -34,7 +34,7 @@ function About() {
       <div className="about__process">
         {processSteps.map((step) => (
           <article className="about__step" key={step.number}>
-            <span>{step.number}</span>
+            {/* <span>{step.number}</span> */}
             <h3>{step.title}</h3>
             <p>{step.copy}</p>
           </article>
