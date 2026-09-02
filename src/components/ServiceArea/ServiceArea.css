@@ -59,6 +59,8 @@
 }
 
 .service-area__block:last-child {
+  display: flex;
+  flex-direction: column;
   border-bottom: 0;
 }
 
