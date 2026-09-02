@@ -6,5 +6,5 @@ export default defineConfig({
   base: "/herreras-construction/",
   servor: {
     port: 3000,
-  }
+  },
 });
