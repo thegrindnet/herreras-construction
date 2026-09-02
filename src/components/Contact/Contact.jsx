@@ -9,8 +9,8 @@ function Contact() {
           <p className="section-kicker">Ready to Talk Roofing?</p>
           <h2 id="contact-title">Call Herrera&apos;s Construction.</h2>
           <p>
-            Need a roof inspection, repair, replacement, or estimate? Call to discuss your property
-            and the roofing work you need.
+            Need a roof inspection, repair, replacement, or estimate? Call to
+            discuss your property and the roofing work you need.
           </p>
         </div>
 
@@ -22,9 +22,9 @@ function Contact() {
           <a className="button button--gold" href={business.phoneHref}>
             Call for Roofing Service
           </a>
-          {/* <a className="contact__email" href={`mailto:${business.email}`}>
-            Email placeholder: {business.email}
-          </a> */}
+          <a className="button button--gold" href={`mailto:${business.email}`}>
+            {business.email}
+          </a>
         </div>
       </div>
     </section>
