@@ -1,6 +1,7 @@
 import "./Hero.css";
 import heroImage from "../../assets/images/roofing-hero.webp";
 import { business } from "../../utils/constants.js";
+import bbbImage from "../../assets/images/bbb.png";
 
 function Hero() {
   return (
@@ -12,14 +13,17 @@ function Hero() {
       />
       <div className="hero__shade" />
       <div className="hero__content">
-        <p className="hero__eyebrow">Roofing & Construction • Chaparral, New Mexico</p>
+        <img className="hero__bbb" src={bbbImage} />
+        <p className="hero__eyebrow">
+          Roofing & Construction • Chaparral, New Mexico
+        </p>
         <h1 className="hero__title" id="hero-title">
           Strong roofs.
           <span>Reliable work.</span>
         </h1>
         <p className="hero__copy">
-          Dependable roof repairs, replacements, installations, and inspections for homes and
-          businesses across the El Paso and Las Cruces region.
+          Dependable roof repairs, replacements, installations, and inspections
+          for homes and businesses across the El Paso and Las Cruces region.
         </p>
         <div className="hero__actions">
           <a className="button button--gold" href={business.phoneHref}>

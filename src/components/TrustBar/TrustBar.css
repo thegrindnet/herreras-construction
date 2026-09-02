@@ -3,6 +3,14 @@
   border-bottom: 1px solid #ddddda;
 }
 
+.trust-bar__title {
+  display: block;
+  text-align: center;
+  border-bottom: 3px solid #ddddda;
+  padding: 10px 0;
+  text
+}
+
 .trust-bar__inner {
   width: min(calc(100% - 48px), var(--content-width));
   margin: 0 auto;
@@ -11,12 +19,15 @@
 }
 
 .trust-bar__item {
-  min-height: 118px;
+  min-height: 50px;
   display: flex;
+  justify-content: center;
   align-items: center;
+  text-align: center;
   gap: 18px;
-  padding: 24px 30px;
+  padding: 5px 30px;
   border-right: 1px solid #ddddda;
+  border-left: 1px solid #ddddda;
 }
 
 .trust-bar__item:first-child {

@@ -27,7 +27,7 @@ function About() {
         </p>
         <a className="about__phone" href={business.officeHref}>
           <span>Talk about your roof</span>
-          <strong>{business.officeDisplayDisplay}</strong>
+          <strong>{business.officeDisplay}</strong>
         </a>
       </div>
 

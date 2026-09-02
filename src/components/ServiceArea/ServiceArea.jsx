@@ -3,13 +3,19 @@ import { business } from "../../utils/constants.js";
 
 function ServiceArea() {
   return (
-    <section className="service-area" id="service-area" aria-labelledby="service-area-title">
+    <section
+      className="service-area"
+      id="service-area"
+      aria-labelledby="service-area-title"
+    >
       <div className="service-area__panel service-area__panel--gold">
         <p className="section-kicker">Service Area</p>
-        <h2 id="service-area-title">Serving the El Paso & Las Cruces region.</h2>
+        <h2 id="service-area-title">
+          Serving the El Paso & Las Cruces region.
+        </h2>
         <p>
-          Based in Chaparral, New Mexico, Herrera&apos;s Construction serves customers throughout the
-          surrounding El Paso and Las Cruces region.
+          Based in Chaparral, New Mexico, Herrera&apos;s Construction serves
+          customers throughout the surrounding El Paso and Las Cruces region.
         </p>
         <a href={business.mapUrl} target="_blank" rel="noreferrer">
           Get directions to our Chaparral address ↗
@@ -36,8 +42,10 @@ function ServiceArea() {
           ))}
         </div>
         <div className="service-area__block">
-          <span>Call</span>
-          <a href={business.phoneHref}>{business.phoneDisplay}</a>
+          <span>Call or Email</span>
+          <a href={business.phoneHref}>Cell: {business.phoneDisplay}</a>
+          <a href={business.officeHref}>Office: {business.officeDisplay}</a>
+          <a href={business.emailHref}>{business.email}</a>
         </div>
       </div>
     </section>
