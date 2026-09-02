@@ -15,7 +15,10 @@ function Hero() {
       <div className="hero__content">
         <img className="hero__bbb" src={bbbImage} />
         <p className="hero__eyebrow">
-          Roofing & Construction • Chaparral, New Mexico
+          Commercial Roofing & Construction You Can Rely On
+        </p>
+        <p className="hero__eyebrow hero__eyebrow-white">
+          Commercial • Government • Institutional • Residential
         </p>
         <h1 className="hero__title" id="hero-title">
           Strong roofs.

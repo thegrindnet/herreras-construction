@@ -8,7 +8,11 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer__top">
-        <a className="footer__brand" href="#home" aria-label="Herrera's Construction home">
+        <a
+          className="footer__brand"
+          href="#home"
+          aria-label="Herrera's Construction home"
+        >
           <img src={logoImage} alt="Herrera's Construction logo" />
         </a>
         <p>{business.tagline}</p>
@@ -17,8 +21,9 @@ function Footer() {
       <div className="footer__grid">
         <div>
           <h2>Contact</h2>
-          <a href={business.phoneHref}>{business.phoneDisplay}</a>
-          <a href={`mailto:${business.email}`}>{business.email} (placeholder)</a>
+          <a href={business.phoneHref}>Cell: {business.phoneDisplay}</a>
+          <a href={business.officeHref}>Office: {business.officeDisplay}</a>
+          <a href={`mailto:${business.email}`}>{business.email}</a>
         </div>
         <div>
           <h2>Visit</h2>
@@ -39,14 +44,14 @@ function Footer() {
         <div>
           <h2>Social</h2>
           <div className="footer__socials">
-            <a
+            {/* <a
               href={business.facebookUrl}
               target="_blank"
               rel="noreferrer"
               aria-label="Facebook placeholder link"
             >
               <img src={facebookIcon} alt="" />
-            </a>
+            </a> */}
             <a
               href={business.instagramUrl}
               target="_blank"
@@ -56,7 +61,10 @@ function Footer() {
               <img src={instagramIcon} alt="" />
             </a>
           </div>
-          <small>Facebook link is a placeholder until the business profile is provided.</small>
+          {/* <small>
+            Facebook link is a placeholder until the business profile is
+            provided.
+          </small> */}
         </div>
       </div>
 
