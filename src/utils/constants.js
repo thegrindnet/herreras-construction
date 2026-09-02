@@ -3,7 +3,7 @@ export const business = {
   tagline: "Built to Protect. Made to Last.",
   phoneDisplay: "(915) 240-7507",
   phoneHref: "tel:+19152407507",
-  email: "your-email@example.com",
+  email: "mherrerasconstruction@gmail.com",
   addressLine1: "1015 Wagon Mound Dr.",
   addressLine2: "Chaparral, NM 88081",
   mapUrl:
@@ -43,7 +43,11 @@ export const featuredServices = [
     number: "03",
     title: "Storm Damage",
     copy: "Roof inspections and repair recommendations for hail, high winds, heavy rain, and severe weather damage.",
-    items: ["Hail damage repair", "Storm damage repair", "Insurance claim assistance"],
+    items: [
+      "Hail damage repair",
+      "Storm damage repair",
+      "Insurance claim assistance",
+    ],
   },
 ];
 
@@ -108,61 +112,85 @@ export const galleryItems = [
     title: "Tile Roofing Work",
     category: "Residential Roofing",
     alt: "Roofers working on a residential tile roof",
-    url: new URL("../assets/images/gallery-01-tile-roof.webp", import.meta.url).href,
+    url: new URL("../assets/images/gallery-01-tile-roof.webp", import.meta.url)
+      .href,
   },
   {
     title: "Shingle Roof Installation",
     category: "Residential Roofing",
     alt: "Herrera's Construction crew installing dark shingles on a residential roof",
-    url: new URL("../assets/images/gallery-02-shingle-roof.webp", import.meta.url).href,
+    url: new URL(
+      "../assets/images/gallery-02-shingle-roof.webp",
+      import.meta.url
+    ).href,
   },
   {
     title: "Flat Roofing Work",
     category: "Roofing",
     alt: "Roofers working across a large light-colored flat roof",
-    url: new URL("../assets/images/gallery-06-flat-roof.webp", import.meta.url).href,
+    url: new URL("../assets/images/gallery-06-flat-roof.webp", import.meta.url)
+      .href,
   },
   {
     title: "Roof Replacement Preparation",
     category: "Residential Roofing",
     alt: "Residential roof with shingles removed and roof deck exposed during roofing work",
-    url: new URL("../assets/images/gallery-08-roof-deck.webp", import.meta.url).href,
+    url: new URL("../assets/images/gallery-08-roof-deck.webp", import.meta.url)
+      .href,
   },
   {
     title: "Roofing Material Delivery",
     category: "Roofing",
     alt: "Roofing crew using a green material lift at a residential property",
-    url: new URL("../assets/images/gallery-07-material-lift.webp", import.meta.url).href,
+    url: new URL(
+      "../assets/images/gallery-07-material-lift.webp",
+      import.meta.url
+    ).href,
   },
   {
     title: "Residential Exterior Work",
     category: "Construction",
     alt: "Construction equipment and roofing materials at a residential exterior project",
-    url: new URL("../assets/images/gallery-09-exterior-work.webp", import.meta.url).href,
+    url: new URL(
+      "../assets/images/gallery-09-exterior-work.webp",
+      import.meta.url
+    ).href,
   },
   {
     title: "Roofing & Construction Work",
     category: "Construction",
     alt: "Crew working on the roof and exterior structure of a home",
-    url: new URL("../assets/images/gallery-04-roofing-construction.webp", import.meta.url).href,
+    url: new URL(
+      "../assets/images/gallery-04-roofing-construction.webp",
+      import.meta.url
+    ).href,
   },
   {
     title: "Exterior Addition Work",
     category: "Construction",
     alt: "Exterior wall addition under construction at a residential property",
-    url: new URL("../assets/images/gallery-10-addition-work.webp", import.meta.url).href,
+    url: new URL(
+      "../assets/images/gallery-10-addition-work.webp",
+      import.meta.url
+    ).href,
   },
   {
     title: "Concrete Work",
     category: "Construction",
     alt: "Fresh concrete being finished alongside a residential building",
-    url: new URL("../assets/images/gallery-03-concrete-work.webp", import.meta.url).href,
+    url: new URL(
+      "../assets/images/gallery-03-concrete-work.webp",
+      import.meta.url
+    ).href,
   },
   {
     title: "Commercial Job Site",
     category: "Commercial Construction",
     alt: "Herrera's Construction trailer parked outside a commercial property job site",
-    url: new URL("../assets/images/gallery-05-commercial-site.webp", import.meta.url).href,
+    url: new URL(
+      "../assets/images/gallery-05-commercial-site.webp",
+      import.meta.url
+    ).href,
   },
 ];
 
