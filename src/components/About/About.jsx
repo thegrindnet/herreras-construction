@@ -20,14 +20,14 @@ function About() {
           Dependable work. Straightforward service.
         </h2>
         <p className="section-copy">
-          We are a dependable roofing company providing quality roof repairs, replacements,
-          installations, and inspections for homes and businesses. Our team focuses on reliable
-          workmanship, honest service, and long-lasting results to help protect your property
-          year-round.
+          We are a dependable roofing company providing quality roof repairs,
+          replacements, installations, and inspections for homes and businesses.
+          Our team focuses on reliable workmanship, honest service, and
+          long-lasting results to help protect your property year-round.
         </p>
-        <a className="about__phone" href={business.phoneHref}>
+        <a className="about__phone" href={business.officeHref}>
           <span>Talk about your roof</span>
-          <strong>{business.phoneDisplay}</strong>
+          <strong>{business.officeDisplayDisplay}</strong>
         </a>
       </div>
 

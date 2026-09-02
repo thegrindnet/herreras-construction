@@ -11,13 +11,19 @@ function Header() {
           <p className="header__service-area">Serving {business.serviceArea}</p>
           <div className="header__utility-links">
             <span>Mon-Sat 6AM-7PM</span>
-            <a href={business.phoneHref}>{business.phoneDisplay}</a>
+            <a href={business.phoneHref}>Cell:{business.phoneDisplay}</a>
+            <a href={business.officeHref}>Office:{business.officeDisplay}</a>
+            <a href={business.emailHref}>Email Us</a>
           </div>
         </div>
       </div>
 
       <div className="header__main">
-        <a className="header__brand" href="#home" aria-label="Herrera's Construction home">
+        <a
+          className="header__brand"
+          href="#home"
+          aria-label="Herrera's Construction home"
+        >
           <img
             className="header__logo"
             src={logoImage}
@@ -27,7 +33,10 @@ function Header() {
 
         <Navigation />
 
-        <a className="header__call button button--gold" href={business.phoneHref}>
+        <a
+          className="header__call button button--gold"
+          href={business.phoneHref}
+        >
           Call Now
         </a>
       </div>

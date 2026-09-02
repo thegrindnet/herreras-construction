@@ -15,15 +15,19 @@ function Contact() {
         </div>
 
         <div className="contact__actions">
-          <a className="contact__phone" href={business.phoneHref}>
-            <span>Call now</span>
-            <strong>{business.phoneDisplay}</strong>
+          <a className="contact__phone" href={business.officeHref}>
+            <span>Call our office</span>
+            <strong>{business.officeDisplay}</strong>
           </a>
           <a className="button button--gold" href={business.phoneHref}>
-            Call for Roofing Service
+            Call Our Cell
           </a>
-          <a className="button button--gold" href={`mailto:${business.email}`}>
-            {business.email}
+          <a
+            className="button button--gold"
+            href={business.emailHref}
+            target="_blank"
+          >
+            Email Us
           </a>
         </div>
       </div>

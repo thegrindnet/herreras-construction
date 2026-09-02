@@ -3,7 +3,10 @@ export const business = {
   tagline: "Built to Protect. Made to Last.",
   phoneDisplay: "(915) 240-7507",
   phoneHref: "tel:+19152407507",
+  officeDisplay: "(915) 304-9622",
+  officeHref: "tel:+19153049622",
   email: "mherrerasconstruction@gmail.com",
+  emailHref: "mailto:mherrerasconstruction@gmail.com",
   addressLine1: "1015 Wagon Mound Dr.",
   addressLine2: "Chaparral, NM 88081",
   mapUrl:
