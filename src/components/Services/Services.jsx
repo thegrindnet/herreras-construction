@@ -3,17 +3,22 @@ import { featuredServices, serviceGroups } from "../../utils/constants.js";
 
 function Services() {
   return (
-    <section className="services" id="services" aria-labelledby="services-title">
+    <section
+      className="services"
+      id="services"
+      aria-labelledby="services-title"
+    >
       <div className="services__intro">
         <div>
-          <p className="section-kicker">Roofing Services</p>
+          <p className="section-kicker">Roofing & Construction Services</p>
           <h2 className="section-title" id="services-title">
-            Roofing built around the problem at hand.
+            Commercial Capability. Roofing Expertise.
           </h2>
         </div>
         <p className="section-copy services__intro-copy">
-          From a small leak to a full roof replacement, Herrera&apos;s Construction provides a wide
-          range of roofing services for homes and businesses.
+          Herrera's Construction supports commercial, institutional, government,
+          and residential roofing needs with repair, maintenance, restoration,
+          and construction capabilities.
         </p>
       </div>
 
