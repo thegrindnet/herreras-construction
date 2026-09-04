@@ -1,5 +1,5 @@
 import "./Footer.css";
-import facebookIcon from "../../assets/icons/facebook.svg";
+// import facebookIcon from "../../assets/icons/facebook.svg";
 import instagramIcon from "../../assets/icons/instagram.svg";
 import logoImage from "../../assets/images/herreras-construction-logo.png";
 import { business, navItems } from "../../utils/constants.js";

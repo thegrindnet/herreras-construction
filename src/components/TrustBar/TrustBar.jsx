@@ -19,17 +19,12 @@ function TrustBar() {
   return (
     <section className="trust-bar" aria-label="Service highlights">
       <div className="trust-bar__title">
-        <strong>
-          <em>Company Credentials & Qualifications</em>
-        </strong>
+        <h2>Company Credentials & Qualifications</h2>
       </div>
       <div className="trust-bar__inner">
         {items.map(([number, text]) => (
           <div className="trust-bar__item" key={number}>
-            {/* <span>{number}</span> */}
-            <strong>
-              <em>{text}</em>
-            </strong>
+            <strong>-{text}-</strong>
           </div>
         ))}
       </div>

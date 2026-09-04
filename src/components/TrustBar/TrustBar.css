@@ -7,7 +7,6 @@
   display: block;
   text-align: center;
   border-bottom: 3px solid #ddddda;
-  padding: 10px 0;
 }
 
 .trust-bar__inner {
@@ -19,6 +18,7 @@
 
 .trust-bar__item {
   min-height: 50px;
+  color: #a98416;
   display: flex;
   justify-content: center;
   align-items: center;
