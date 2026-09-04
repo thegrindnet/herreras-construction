@@ -10,6 +10,7 @@ import ServiceArea from "../ServiceArea/ServiceArea.jsx";
 import Faq from "../Faq/Faq.jsx";
 import Contact from "../Contact/Contact.jsx";
 import Footer from "../Footer/Footer.jsx";
+// import CommercialExperience from "../CommercialExperience/CommercialExperience.jsx";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Hero />
         <TrustBar />
         <Services />
+        {/* <CommercialExperience /> */}
         <About />
         <Gallery />
         <Testimonials />

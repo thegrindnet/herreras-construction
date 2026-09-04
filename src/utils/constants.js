@@ -291,3 +291,12 @@ export const faqs = [
       "Yes. We provide roofing services for both residential and commercial properties, including repairs, replacements, maintenance, and new roof installations.",
   },
 ];
+
+export const commercialCapabilities = [
+  "Commercial roofing",
+  "Roof coatings & restoration systems",
+  "TPO roofing",
+  "Roof repairs & maintenance",
+  "General construction",
+  "Government & institutional work",
+];
